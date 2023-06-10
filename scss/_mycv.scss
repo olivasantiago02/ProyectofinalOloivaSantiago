@@ -1,0 +1,136 @@
+
+//SECCION DE micv
+
+.Bodycv {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    color: #333;
+          
+          
+          .containerr {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto 1fr;
+            grid-gap: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            background-color: #fff;
+          }
+          
+          .headerr {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+          
+          
+          img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            margin-bottom: 20px;
+          }
+        }
+          
+          .huno {
+            font-size: 36px;
+            margin: 0;
+          }
+          
+          .puno {
+            font-size: 18px;
+            margin: 0;
+          }
+          
+          .hdos {
+            font-size: 24px;
+            margin: 0;
+          }
+          
+          .uele {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+          }
+          
+          .elei {
+            margin-bottom: 10px;
+          }
+}
+  .contenedorp {
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  
+          h1{
+            color: #160a0a;
+            display: flex;
+            margin-left: 670px;
+          }
+}
+  
+  .navuno {
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  
+          
+          ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+          }
+          
+          li {
+            margin-right: 20px;
+          }
+          
+          a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+          }
+          
+          &:hover {
+            color: #666;
+          }
+}
+  
+  
+  .mainp {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .sectionp {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: calc(33.33% - 20px);
+          
+          
+          h2 {
+            font-size: 24px;
+          }
+          
+          img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+          }
+          
+          p {
+            font-size: 16px;
+            line-height: 1.5;
+          }
+}
+

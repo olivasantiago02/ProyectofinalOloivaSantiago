@@ -1,0 +1,59 @@
+//ANIDACION DEL HEADER. ESTE MISMO SE INCLUYE EN TODAS LAS PAGINAS DE MI PROYECTO.
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: $color-a;
+    padding: 20px ;
+  
+            a {
+              text-decoration: none;
+              color: #fff;
+              text-shadow: 0 0 5px #efe6e6;
+              transition: text 0.3s ease-in-out;
+                  &:hover {
+                    text-shadow: 0 0 10px #160a0a;}
+                  }
+            
+            img{
+              margin-left: 80px;
+              width: 100px;
+              height: 100px;
+              transition: transform 0.3s ease-in-out;
+                  &:hover {
+                  transform: rotate(360deg);}
+                  }
+            h1{
+                margin-right: 600px;
+                font-size: 17px;}
+            
+            h2 h3 h4 h5 {
+              color: #fff;}
+            
+              nav ul {
+                display: flex;
+                flex-direction: row;
+                list-style: none;
+                margin-right: 80px;
+                justify-content: center; /* Agregue esta propiedad para centrar los elementos */
+              }
+              
+              
+              nav li {
+                margin-left: 20px;
+                text-align: center; /* Agregue esta propiedad para centrar el texto */
+              }
+              
+              
+              nav a {
+                color: #fff;
+                text-decoration: none;
+                display: block; /* Agregue esta propiedad para que los elementos ocupen todo el ancho del contenedor */
+                padding: 10px; /* Agregue un poco de espacio alrededor del texto */
+              }
+              
+            }
+       
+  
