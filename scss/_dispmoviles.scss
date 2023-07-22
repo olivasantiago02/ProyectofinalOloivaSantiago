@@ -1,27 +1,27 @@
 //ADAPTACION PARA DISPOSITIVOS MOVILES 480PX
 
-@media screen and (max-width: 480px) {
-    body{
-      padding: 0;
-      margin: 0;
-    }
-          header {
-            padding: 10px;
+@media (max-width: 767px) {
+  header {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  nav {
+      margin-top: 10px;
+  }
+
+  nav ul {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  nav ul li {
+      margin: 10px 0;
+  }
+
           
-        
-              img {
-                width: 80px;
-                height: 80px;
-              }
-        
-              h1 {
-              font-size: 12px;
-              margin-right: 10px;
-              margin-right: 20px;
-              }
-          }
             nav{
-              justify-content: flex-start;
+              
             
           
             ul {
@@ -34,14 +34,20 @@
             }
 
 
-            .section-2 p{
-              font-size: 14px;
-            
-            h1{
-              font-size: 20px;
-            }
+           
           }
     .conteinerf a{
       display: flex;
     }
-  }
+    .about-me p{
+      font-size: 12px;
+     padding: 20px;
+    }
+   .sass{
+    display: inline-block;
+   }
+   .item1 .item2 .item3 .item4 {
+    padding-top: 20px;
+   }
+   
+  

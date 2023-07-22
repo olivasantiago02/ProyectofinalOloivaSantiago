@@ -101,7 +101,16 @@ body .overlay h1 {
 body .overlay h2 {
   font-size: 20px;
   margin: 0;
+  color: #ffffff;
+}
+body .overlay h3 {
   color: #fff;
+}
+body .overlay h4 {
+  color: #fff;
+}
+body .overlay h5 {
+  color: #ffffff;
 }
 body .overlay p {
   font-size: 1.5rem;
@@ -109,6 +118,7 @@ body .overlay p {
   justify-content: center;
   margin: 0;
   color: #fff;
+  background-color: rgba(0, 0, 0, 0.546);
 }
 body .image-container:hover img {
   transform: scale(1.1);
@@ -121,12 +131,12 @@ main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 20px;
-  padding: 50px;
+  gap: 200px;
+  padding: 20px;
 }
 
 .seccion1 {
-  background-color: #f2f2f2;
+  background-color: rgba(40, 39, 38, 0.5058823529);
   padding: 50px;
 }
 
@@ -140,15 +150,17 @@ main {
 .about-me img {
   width: 350px;
   height: auto;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .about-me h2 {
-  font-size: 2rem;
+  font-size: 3rem;
+  color: #fafafa;
   margin: 0;
   margin-bottom: 10px;
 }
 .about-me p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  color: #fafafa;
   margin: 0;
 }
 
@@ -163,8 +175,8 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #fff;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  color: #f8f8f8;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
 }
 .item-1 img,
 .item-2 img,
@@ -260,25 +272,20 @@ footer .redes-sociales img {
   margin-left: 10px;
 }
 
-@media screen and (max-width: 480px) {
-  body {
-    padding: 0;
-    margin: 0;
-  }
+@media (max-width: 767px) {
   header {
-    padding: 10px;
-  }
-  header img {
-    width: 80px;
-    height: 80px;
-  }
-  header h1 {
-    font-size: 12px;
-    margin-right: 10px;
-    margin-right: 20px;
+    flex-direction: column;
+    align-items: center;
   }
   nav {
-    justify-content: flex-start;
+    margin-top: 10px;
+  }
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul li {
+    margin: 10px 0;
   }
   nav ul {
     flex-direction: column;
@@ -287,31 +294,39 @@ footer .redes-sociales img {
   nav li {
     margin: 10px 0;
   }
-  .section-2 p {
-    font-size: 14px;
-  }
-  .section-2 p h1 {
-    font-size: 20px;
-  }
-  .conteinerf a {
-    display: flex;
-  }
 }
+.conteinerf a {
+  display: flex;
+}
+
+.about-me p {
+  font-size: 12px;
+  padding: 20px;
+}
+
+.sass {
+  display: inline-block;
+}
+
+.item1 .item2 .item3 .item4 {
+  padding-top: 20px;
+}
+
 .Bodycv {
-  background-color: #f2f2f2;
+  background-color: #000000;
   font-family: Arial, sans-serif;
-  color: #333;
+  color: #ffffff;
 }
 .Bodycv .containerr {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr;
-  grid-gap: 20px;
+  grid-gap: 50px;
   max-width: 800px;
   margin: 0 auto;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  padding: 20px;
-  background-color: #fff;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+  padding: 200px;
+  background-color: #181616;
 }
 .Bodycv .headerr {
   display: flex;
@@ -320,42 +335,43 @@ footer .redes-sociales img {
   flex-direction: column;
 }
 .Bodycv .headerr img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 20%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .Bodycv .huno {
-  font-size: 36px;
+  font-size: 40px;
   margin: 0;
 }
 .Bodycv .puno {
-  font-size: 18px;
+  font-size: 30px;
   margin: 0;
 }
 .Bodycv .hdos {
-  font-size: 24px;
+  font-size: 30px;
   margin: 0;
 }
 .Bodycv .uele {
   list-style: none;
-  margin: 0;
+  margin-bottom: 20px;
   padding: 0;
 }
 .Bodycv .elei {
-  margin-bottom: 10px;
+  margin-bottom: 35px;
 }
 
 .contenedorp {
-  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(51, 51, 51, 0.8117647059);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
 }
-.contenedorp h1 {
-  color: #160a0a;
-  display: flex;
-  margin-left: 670px;
+
+.navbar a {
+  color: #ffffff;
 }
 
 .navuno {
@@ -386,13 +402,16 @@ footer .redes-sociales img {
   display: grid;
   grid-template-columns: auto;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 20px;
 }
 
 .sectionp {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
   background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgb(180, 58, 58);
   padding: 20px;
   margin-bottom: 20px;
   width: calc(33.33% - 20px);

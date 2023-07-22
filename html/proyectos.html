@@ -7,9 +7,10 @@
   <meta name="KeyWords" content="Blog, Developer, Desarrollador, Html, Css, React, JavaScript, Trabajo, Python, etc.">
   <link rel="stylesheet" href="../css/bootstrap.min.css">
   <script src="../js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="../css/estilos.css">
+  <link rel="stylesheet" href="../scss/estilos.css">
   <a id="inicio"></a>
 </head>
+<body>
 <header>
     <img src="../img/argentina.png" alt="Logo de la empresa" width="110px">
     <h1>Santiago Oliva</h1>
@@ -24,17 +25,27 @@
     </nav>
   </header>
 
-  <body>
     <header class="contenedorp">
-      <h1>MIS PROYECTOS</h1>
-    </header>
-    <nav class="navuno">
-      <ul>
-        <li><a href="#py">Python</a></li>
-        <li><a href="#rc">React</a></li>
-        <li><a href="#js">JavaScript</a></li>
-      </ul>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Mis Proyectos</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#py">Python <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#rc">React</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#js">JavaScript</a>
+                </li>
+            </ul>
+        </div>
     </nav>
+    </header>
     <main class="mainp">
       <section class="sectionp" id="py">
         <h2>Proyecto Python</h2>
@@ -52,9 +63,8 @@
         <p>Descripción del proyecto 3</p>
       </section>
     </main>
-  </body>
-
-<footer>
+    
+    <footer>
     <div class="containerf">
       <p>&copy; 2023 Santiago Oliva Todos Los Derechos Reservados.</p>
       <a href="#inicio">Volver al inicio</a>
@@ -65,4 +75,8 @@
       </div>
     </div>
   </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
 </html>
