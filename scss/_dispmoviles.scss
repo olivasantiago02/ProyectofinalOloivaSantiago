@@ -43,11 +43,20 @@
       font-size: 12px;
      padding: 20px;
     }
-   .sass{
-    display: inline-block;
-   }
-   .item1 .item2 .item3 .item4 {
-    padding-top: 20px;
-   }
+   
+   
+    body {
+      background-color: black;
+      color: white; /* Letras en blanco */
+      font-family: "Arial", sans-serif; /* Letra formal (cambiar según tus preferencias) */
+    }
+    
+    .titleDark {
+      font-size: 36px; /* Tamaño del título (cambiar según tus preferencias) */
+      text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8); /* Sombras blancas */
+      text-align: center; /* Centrar el título horizontalmente */
+      margin-top: 100px; /* Margen superior para centrar verticalmente (cambiar según tus necesidades) */
+    }
+    
    
   
